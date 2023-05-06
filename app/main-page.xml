@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onloaded">
+    <ActionBar title="Animation" icon="" />
+    <StackLayout>
+    <AbsoluteLayout class= "p-4" height="200">
+
+        <Label text="To Be Moved" class="text-3xl text-center" top="0" left="0" id="label"/>
+       
+    </AbsoluteLayout>
+     <Button text="TAP" tap="onMove" class="-primary" />
+    </StackLayout>
+
+
+</Page>
